@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // MongoDB Connection Setup (use your MongoDB URI)
-const uri = "mongodb+srv://Sayantan:Sayantan@cluster-studentdb.8vzkq4d.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp";
+const uri = "mongodb+srv://<username>:<password>@cluster-studentdb.8vzkq4d.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp";//change accordingly
 const client = new MongoClient(uri, {
   serverApi: {
     version: ServerApiVersion.v1,
