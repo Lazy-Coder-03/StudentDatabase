@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Database App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Student Database App</h1>
+  <form id="add-student-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="collegeRollNo">College Roll No:</label>
+    <input type="text" id="collegeRollNo" name="collegeRollNo" required><br><br>
+    <label for="universityRollNo">University Roll No:</label>
+    <input type="text" id="universityRollNo" name="universityRollNo" required><br><br>
+    <label for="universityRegNo">University Reg No:</label>
+    <input type="text" id="universityRegNo" name="universityRegNo" required><br><br>
+    <label for="contactNumber">Contact Number:</label>
+    <input type="text" id="contactNumber" name="contactNumber" required><br><br>
+    <input type="submit" value="Add Student">
+  </form>
+  <h2>Students:</h2>
+  <ul id="student-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
